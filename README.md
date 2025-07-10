@@ -13,7 +13,7 @@ The application simulates a minimal social media backend, enabling users to:
 - View a global user feed sorted by post creation time
 - Retrieve and display user-specific data
 
-All operations are accessible via well-defined REST endpoints and tested using **Postman**. The application uses **Spring Boot** for request handling and **H2** as an in-memory data store for quick development and testing.
+All operations are accessible via well-defined REST endpoints and tested manually using Postman during development. The application uses **Spring Boot** for request handling and **H2** as an in-memory data store for quick development and testing.
 
 ---
 
@@ -25,7 +25,6 @@ All operations are accessible via well-defined REST endpoints and tested using *
 - Structured JSON request/response schema
 - Object-oriented controller-service-repository architecture
 - Error handling with meaningful response messages
-- Tested with a comprehensive Postman collection
 
 ---
 
@@ -33,8 +32,10 @@ All operations are accessible via well-defined REST endpoints and tested using *
 
 - **Java**  
 - **Spring Boot** – REST API framework  
-- **H2 Database** – in-memory relational DB  
+- **H2 Database** – in-memory relational DB 
+- **Maven** – build automation and dependency management  
 - **Postman** – for API testing
+  
 ---
 
 ## 📂 Endpoints Summary
@@ -49,7 +50,16 @@ All operations are accessible via well-defined REST endpoints and tested using *
 | Post CRUD      | POST/GET/PATCH/DELETE | `/post` with params | Create, read, update, delete posts |
 | Comment CRUD   | POST/GET/PATCH/DELETE | `/comment` with params | Same for comments                  |
 
-> For full request/response structures, see the [Postman collection](https://bold-robot-635964.postman.co/workspace/My-Workspace~fdcf320c-d95e-4a0f-8014-7f96e0ac11bd/collection/24752303-7dc37d1a-2404-4a0a-8ecf-b33facb1a9b9?action=share&creator=24752303)
+
 
 ---
 
+## 📁 Files Included
+
+- `src/` – Java source files organized using Spring Boot (controllers, services, models, etc.)  
+- `.mvn/wrapper/` – Maven wrapper configuration  
+- `mvnw`, `mvnw.cmd` – Maven wrapper scripts for Unix/Windows builds  
+- `pom.xml` – Maven project descriptor and dependency manager  
+- `application.properties` – (inside `src`) contains Spring Boot config, including H2 setup  
+- `.gitignore` – Standard Git ignore file  
+- `README.md` – Project overview and documentation
