@@ -1,10 +1,10 @@
-# 🐦 Social Media Platform (Twitter Clone) – Spring Boot REST API
+# Social Media Platform (Twitter Clone) – Spring Boot REST API
 
 This project implements a lightweight Twitter-style backend using **Java**, **Spring Boot**, and an **H2 in-memory database**, developed as a major assignment for an Object-Oriented Programming course. It focuses on building a fully functional **RESTful API** that supports user authentication, post creation, commenting, and retrieval — following object-oriented principles and stateless API design.
 
 ---
 
-## 🌐 Project Overview
+## Project Overview
 
 The application simulates a minimal social media backend, enabling users to:
 - Sign up and log in
@@ -17,7 +17,7 @@ All operations are accessible via well-defined REST endpoints and tested manuall
 
 ---
 
-## 📦 Features
+## Features
 
 - User authentication and account creation with validation
 - CRUD operations for posts and comments
@@ -28,7 +28,7 @@ All operations are accessible via well-defined REST endpoints and tested manuall
 
 ---
 
-## 🧪 Tech Stack
+## Tech Stack
 
 - **Java**  
 - **Spring Boot** – REST API framework  
@@ -38,7 +38,7 @@ All operations are accessible via well-defined REST endpoints and tested manuall
   
 ---
 
-## 📂 Endpoints Summary
+## Endpoints Summary
 
 | Resource       | Method | Endpoint        | Description                        |
 |----------------|--------|-----------------|------------------------------------|
@@ -54,7 +54,7 @@ All operations are accessible via well-defined REST endpoints and tested manuall
 
 ---
 
-## 📁 Files Included
+## Files Included
 
 - `src/` – Java source files organized using Spring Boot (controllers, services, models, etc.)  
 - `.mvn/wrapper/` – Maven wrapper configuration  
